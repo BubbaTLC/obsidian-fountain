@@ -4,7 +4,8 @@ import * as fountain from '../node_modules/Fountain-js/fountain.js';
 
 function parseFountain(text: string, container: HTMLElement) {
 	fountain.parse(text, function (output) {
-		container.innerHTML = output.html.script;
+		container.innerHTML += output.html.title_page;
+		container.innerHTML += output.html.script;
 	});
 }
 

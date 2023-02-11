@@ -20,11 +20,12 @@
 }
 
 
-/* Styles for Screenplain */
+/* Styles for Screenplay */
 
 .screenplay {
     margin: auto;
     width: 60%;
+    max-width: 55em;
     text-align: left;
     font: 12pt 'Courier Final Draft', 'Courier Screenplay', Courier;
     padding: 0pt 0 0 0pt;
@@ -32,6 +33,7 @@
 }
 
 .screenplay>header {
+    color: #569cd6 !important;
     margin-bottom: 1em;
     border-bottom: 1px solid black;
 }
@@ -45,7 +47,7 @@
 }
 
 .screenplay>p .bold {
-    font-weight: bold;
+    color: #569cd6 !important;
 }
 
 .screenplay>br {
@@ -56,19 +58,72 @@
     margin-top: 1em;
 }
 
+/* Title Page */
+.screenplay>h1 {
+    text-align: center;
+    margin:auto;
+}
+
+.screenplay>.credit {
+    text-align: center;
+    margin:auto;
+}
+
+.screenplay>.author {
+    text-align: center;
+    margin:auto;
+}
+
+.screenplay>.authors {
+    text-align: center;
+    margin:auto;
+}
+
+.screenplay>.source {
+    text-align: center;
+    margin:auto;
+}
+
+.screenplay>.notes {
+    text-align: center;
+    margin:auto;
+}
+
+.screenplay>.draft-date {
+    text-align: right;
+    margin-right: 0em;
+}
+
+.screenplay>.date {
+    text-align: right;
+    margin-right: 0em;
+}
+
+.screenplay>.contact {
+    text-align: right;
+    margin-right: 0em;
+}
+
+.screenplay>.copyright {
+    text-align: right;
+    margin-right: 0em;
+}
+
+
 
 /* Dialogue */
 
 .screenplay>.dialogue h4 {
     text-align: center;
-    color: var(--bright-yellow) !important;
+    color: #4ec9b0 !important;
     font-weight: 500 !important;
-    font-size: 18px !important;
 }
 
 .screenplay>.dialogue p {
     text-align: left;
+    color:#ce9178 !important;
     margin-left: 20%;
+    margin-right: 20%;
 }
 
 .underline {
@@ -76,19 +131,25 @@
 }
 
 .screenplay>.dialogue .parenthetical {
-    padding-left: 10%;
+    color:#d7ba7d !important;
+    text-align: center;
+    margin: auto;
 }
 
 
-/* Headers */
-
+/* Scene Headding */
 .screenplay>h3 {
+    color:#3277af !important;
     margin-top: 2em;
     text-transform: uppercase;
-    font-weight: bold !important;
-    color: var(--text-accent) !important;
 }
 
+/* Transition */
+.screenplay>h2 {
+    color:#b5cea8 !important;
+    text-align: right;
+    font-size: 18px;
+}
 
 /* Change mode button */
 
